@@ -1,9 +1,18 @@
+#define pinLed 8
+
+int status = 1;
+
 void setup() {
-  // put your setup code here, to run once:
+  pinMode(pinLed, INPUT);
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
+  if(status)
+    digitalWrite(pinLed, HIGH);
+  else
+    digitalWrite(pinLed, LOW);
+
+  delay(1000);
 }
