@@ -1,0 +1,5 @@
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootTypes\bin\Release\GrootTypes.dll
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootTypes\bin\Release\GrootTypes.pdb
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootTypes\obj\Release\GrootTypes.csprojResolveAssemblyReference.cache
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootTypes\obj\Release\GrootTypes.dll
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootTypes\obj\Release\GrootTypes.pdb
