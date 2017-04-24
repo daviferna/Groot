@@ -1,0 +1,72 @@
+﻿<section id="panel" ng-init="init()">
+    <header>
+        <div class="panel-header">
+            <h1>my<strong>Groot</strong></h1>
+            <h2>Bienvenido de nuevo Daniel</h2>
+        </div>
+    </header>
+    <div id="panel-menu" class="panel-container" ng-hide="false">
+        <div class="panel-menu">
+            <div class="menu-item">
+                <div class="menu-item-container">
+                    <span class="glyphicon glyphicon-cog panel-icon"></span>
+                </div>
+                <h4>Sistema</h4>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-container">
+                    <span class="glyphicon glyphicon-list-alt panel-icon"></span>
+                </div>
+                <h4>Log</h4>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-container">
+                    <span class="glyphicon glyphicon-tasks panel-icon"></span>
+                </div>
+                <h4>Gráficas</h4>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-container">
+                    <span class="glyphicon glyphicon-leaf panel-icon"></span>
+                </div>
+                <h4>Control</h4>
+            </div>
+        </div>
+    </div>
+    
+    <div id="panel-graphics" class="panel-container" ng-hide="true">
+        <div class="panel-graphics">
+            <div class="graphics-big">
+                <h3>Temperatura y Humedad</h3>
+                <canvas id="tempAndHum"class="graphic-canvas" width="800" height="800"></canvas>
+            </div>
+
+            <div class="graphics-small">
+                <div class="graphics-small-row">
+                    <div class="graphic">
+                        <h3>Humedad (Tierra)</h3>
+                        <canvas id="sandHumidity" class="graphic-canvas" width="400" height="400"></canvas>
+                    </div>
+                    <div class="graphic">
+                        <h3>Riego</h3>
+                        <canvas id="irrigation" class="graphic-canvas" width="400" height="400"></canvas>
+                    </div>
+                </div>
+
+                <div class="graphics-small-row">
+                    <div class="graphic">
+                        <h3>Iluminación</h3>
+                        <canvas id="illumination" class="graphic-canvas" width="400" height="400"></canvas>
+                    </div>
+                    <div class="graphic">
+                        <h3>Ya veremos para que</h3>
+                        <canvas id="tempAndHum" class="graphic-canvas" width="400" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Hecho con <strong>amor</strong> y <strong>cafeina</strong> por Miguel Campo, Álvaro López y Daniel Ávila</p>
+    </footer>
+</section>

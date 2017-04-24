@@ -1,0 +1,12 @@
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootCore\bin\Debug\GrootCore.exe.config
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootCore\bin\Debug\GrootCore.exe
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootCore\bin\Debug\GrootCore.pdb
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootCore\bin\Debug\EntityFramework.dll
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootCore\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootCore\bin\Debug\EntityFramework.xml
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootCore\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootCore\obj\Debug\GrootCore.csprojResolveAssemblyReference.cache
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootCore\obj\Debug\GrootCore.exe
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootCore\obj\Debug\GrootCore.pdb
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootCore\bin\Debug\GrootTypes.dll
+C:\Users\danie\Documents\GitHub\Groot\grootApi\GrootCore\bin\Debug\GrootTypes.pdb

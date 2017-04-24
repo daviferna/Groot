@@ -1,0 +1,427 @@
+html, body{
+    width:100%;
+    height:auto;
+    margin:0px;
+    background:#EEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Common*/
+footer{
+    width:100%;
+    height:auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    background:#333;
+    padding-left:20px;
+    padding-right:20px;
+    font-family:"Roboto", sans-serif;
+}
+
+footer p{
+    color:#FFF;
+    font-size:1.1em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin:0px;
+    padding:0px;
+    font-family:Roboto;
+}
+
+/*Home section*/
+#home header{
+    width:100%;
+    height:auto; 
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:5px;
+}
+
+.header-container{
+    margin:0px auto;
+    width:100%;
+    max-width:1200px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+
+.groot-logo{
+    width:auto;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+}
+
+.groot-logo h1{
+    width:auto;
+    height:auto;
+    font-family: 'Lobster', sans-serif;
+    font-size:6em;
+    color:#555;
+}
+
+.groot-logo h2{
+    width:auto;
+    height:auto;
+    font-size:2.3em;
+    color:#555;
+    font-weight: lighter;
+    margin-top:-30px;
+    margin-left:80px;
+}
+
+
+
+.login-menu{
+    width:auto;
+    height:auto;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.login-icon{
+    width:50px;
+    height:50px;
+    background:#555;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-icon-image{
+    font-size:1.2em;
+    color:#EEE;
+    margin-top:-5px;
+}
+
+.login-info{
+    width:auto;
+    padding-left:20px;
+}
+
+.login-button{
+    width:auto;
+    height:auto;
+    background:transparent;
+    border:none;
+    font-size:1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Plant List*/
+
+.plant-list{
+    width:100%;
+    height:auto;
+    padding:30px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.plant{
+    width:30%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    background:#FFF;
+    margin-left:1.6%;
+    margin-right:1.6%;
+    border:1px solid #EEE;
+}
+.plant:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+
+.plant-image{
+    width:100%;
+    height:200px;
+    background: #000;
+}
+
+.plant-info{
+    width:100%;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.plant-info h3{
+    width:auto;
+    font-family: "Roboto Slab", sans-serif;
+    font-size:1.3em;
+}
+
+.plant-info-details{
+    width:auto;
+    height:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    padding-top:10px;
+}
+
+.plant-info-detail{
+    width:auto;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    margin-right:20px;
+}
+
+.plant-info-detail .detail-icon{
+    font-size: 1.3em;
+}
+
+.plant-info-detail h4{
+    padding-top:5px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight:lighter;
+}
+
+/*Panel*/
+
+#panel{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+}
+
+#panel header{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.panel-container{
+    width:100%;
+    height:100%;
+}
+
+.panel-header{
+    margin:0px auto;
+    width:100%;
+    max-width:1200px;
+    padding-top:30px;
+}
+
+.panel-header h1{
+    font-weight:lighter;
+    font-size:3em;
+    color:#333;
+}
+
+.panel-header h2{
+    font-weight:lighter;
+    font-size:1.5em;
+     color:#333;
+}
+
+.panel-menu{
+    margin:0px auto;  
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-top:-10vh;
+    flex-wrap:wrap;
+}
+
+.menu-item{
+   width:10%;
+   height:auto;
+   color:#1abc9c;
+   margin-left:3vw;
+   margin-right:3vw;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+}
+
+.menu-item-container{
+    width:100%;
+    height:10vw;
+    border:1px solid #1abc9c;
+    border-radius:50%;  
+    
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.panel-icon{
+    font-size: calc(2vw + 1em);
+}
+
+.menu-item h4{
+    font-size: calc(0.5vw + 1em);
+    font-weight:lighter;
+    margin-top:20px;
+}
+
+.menu-item:hover .menu-item-container{
+    background:#1abc9c;
+    color:#FFF;
+    cursor:pointer;
+}
+
+/*LOGIN*/
+
+#login{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+#login header{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.login-form{
+    margin:0px auto;
+    width:100%;
+    height:100%;
+    max-width:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:-30vh;
+}
+
+.login-form h2{
+    width:100%;
+    margin-bottom:20px;
+    font-size:3em;
+    font-weight:lighter;
+    text-align:left;
+    border-left: 1px solid #1abc9c;
+    padding-left:20px;
+}
+
+.groot-input{
+    width:100%;
+    height:3em;
+    margin-top:10px;
+    margin-bottom:10px;
+    border:none;
+    border: 1px solid #1abc9c;
+    background:#EEE;
+    padding-left:20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    color:#333;
+    font-weight:lighter;
+}
+
+.groot-button{
+    width:auto;
+    height:auto;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border: 1px solid #1abc9c;
+    color: #1abc9c;
+    background:transparent;
+    margin-top:20px;
+    font-size:1.1em;
+    
+}
+
+.groot-button:hover{
+    background: #1abc9c;
+    color:#FFF;
+    cursor:pointer;
+}
+
+/*Panel Graphics*/
+
+.panel-graphics{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:row;
+    padding:30px;
+}
+
+.graphics-big{
+    width:35vw;
+    height:35vw;
+    background:#FFF;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+}
+
+.panel-graphics h3{
+    font-weight:lighter;
+    font-size:1.2em;
+}
+
+.graphics-small{
+    width:65vw;
+    height:auto;
+    display:flex;
+    flex-direction:row;
+}
+
+.graphics-small-row{
+    width:50%;
+    height:50%;
+    display:flex;
+    flex-direction:column;
+    margin-left:10px;
+}
+
+.graphic{
+    width:100%;
+    height:50%;
+    background:#FFF;
+    margin-bottom:10px;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+}
+
+.graphic-canvas{
+    width:100%;
+    height:90%;
+    margin-top:10px;
+}
+
+.plant-img{
+    width:100%;
+    height:100%;
+}
